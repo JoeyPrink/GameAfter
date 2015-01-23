@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnitySampleAssets.CrossPlatformInput;
 
+
 namespace UnitySampleAssets._2D
 {
 
