@@ -27,7 +27,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 61: {fileID: 6100000}
   m_Layer: 0
-  m_Name: boxtile
+  m_Name: floortile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
