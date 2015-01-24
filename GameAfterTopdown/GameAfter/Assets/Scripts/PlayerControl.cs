@@ -137,4 +137,11 @@ public class PlayerControl : MonoBehaviour
 			// Otherwise return this index.
 			return i;
 	}
+
+	public void forcedJump(float jumpforce){
+		rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+	}
+
+
+
 }
