@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Score.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\GameAfterTopdown\GameAfter\Assets\Scripts\PickupSpawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/Score.cs" Line="28" Column="1" />
+      <File FileName="..\GameAfterTopdown\GameAfter\Assets\Scripts\PickupSpawner.cs" Line="43" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
