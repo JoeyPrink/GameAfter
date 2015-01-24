@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 451736}
   - 212: {fileID: 21251736}
   - 61: {fileID: 6151736}
-  - 114: {fileID: 11451736}
+  - 114: {fileID: 11447028}
   m_Layer: 0
   m_Name: switchToDoor
   m_TagString: Obstacle
@@ -25,7 +25,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 151736}
   m_LocalRotation: {x: .00658722967, y: 0, z: 0, w: .999978304}
-  m_LocalPosition: {x: -17.2099991, y: -5.76999998, z: 6.28200381e-09}
+  m_LocalPosition: {x: -15.9238691, y: -4.79646921, z: 6.28200381e-09}
   m_LocalScale: {x: 2.11999989, y: 2.05999994, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -41,7 +41,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_Size: {x: 6.42999983, y: 11.3599997}
   m_Center: {x: .200000003, y: 1.44272995}
---- !u!114 &11451736
+--- !u!114 &11447028
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -54,13 +54,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite1: {fileID: 21300000, guid: a65b8f85b9012417dab6e0be605bcfbc, type: 3}
   sprite2: {fileID: 21300000, guid: ec4613ecca6f14c3cb33d5d8d6d47492, type: 3}
-  sprite_remote1: {fileID: 21300000, guid: bd1989b4e42a0454097f657dfb368bd8, type: 3}
-  sprite_remote2: {fileID: 21300004, guid: 361e1e5d552ad444fb688b5203c01caa, type: 3}
+  sprite_remote1: {fileID: 21300000, guid: 9f372e5d327764ee19ffa64da23d5b2d, type: 3}
+  sprite_remote2: {fileID: 21300000, guid: 98e5c326a37509847a6df78f8d2a1629, type: 3}
   lockSecondSprite: 1
-  gameObjectName: 646f6f725f746f737769746368
-  triggered: 0
-  spriteRenderer: {fileID: 0}
-  remoteSpriteRenderer: {fileID: 0}
+  gameObjectName: door_toswitch
 --- !u!212 &21251736
 SpriteRenderer:
   m_ObjectHideFlags: 1
