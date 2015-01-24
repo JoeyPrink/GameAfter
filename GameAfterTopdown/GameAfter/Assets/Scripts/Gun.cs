@@ -28,6 +28,8 @@ public class Gun : MonoBehaviour
 			anim.SetTrigger("Shoot");
 			audio.Play();
 
+
+
 			// If the player is facing right...
 			/*if(playerCtrl.facingRight)
 			{
@@ -42,5 +44,6 @@ public class Gun : MonoBehaviour
 				bulletInstance.velocity = new Vector2(-speed, 0);
 			} */
 		}
+
 	}
 }
