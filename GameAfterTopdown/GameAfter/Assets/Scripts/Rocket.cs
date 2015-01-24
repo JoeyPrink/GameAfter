@@ -4,7 +4,7 @@ using System.Collections;
 public class Rocket : MonoBehaviour 
 {
 	public GameObject explosion;		// Prefab of explosion effect.
-	
+	public float reach = 5f;
 	
 	void Start () 
 	{
@@ -63,7 +63,7 @@ public class Rocket : MonoBehaviour
 		else if(col.gameObject.tag != "Player")
 		{
 			// Instantiate the explosion and destroy the rocket.
-			OnExplode();
+			//OnExplode();
 			Destroy (gameObject);
 		}
 	}
