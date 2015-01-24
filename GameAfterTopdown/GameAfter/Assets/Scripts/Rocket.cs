@@ -4,12 +4,12 @@ using System.Collections;
 public class Rocket : MonoBehaviour 
 {
 	public GameObject explosion;		// Prefab of explosion effect.
-	public float reach = 5f;
+	//public float reach = 0.00001f;
 	
 	void Start () 
 	{
 		// Destroy the rocket after 2 seconds if it doesn't get destroyed before then.
-		Destroy(gameObject, 2);
+		Destroy(gameObject, 0.00005f);
 	}
 	
 	
@@ -63,7 +63,7 @@ public class Rocket : MonoBehaviour
 		else if(col.gameObject.tag != "Player")
 		{
 			// Instantiate the explosion and destroy the rocket.
-			//OnExplode();
+			OnExplode();
 			Destroy (gameObject);
 		}
 	}
